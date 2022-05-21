@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: a2126534b3a11b34e977105bd9e3cc03, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 83710046615d6184a89746bc998e2710, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.77028745, g: 0.7734031, b: 0.7540793, a: 1}
+  m_IndirectSpecularColor: {r: 0.65574026, g: 0.5655646, b: 0.84001935, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -735,7 +735,7 @@ Camera:
   m_GameObject: {fileID: 999714146}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -776,13 +776,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999714146}
-  m_LocalRotation: {x: -0, y: 0.96676034, z: -0.2556844, w: 0}
+  m_LocalRotation: {x: -0, y: 0.98853964, z: -0.15096168, w: 0}
   m_LocalPosition: {x: 0, y: 2.19, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 29.628, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 17.365, y: 180, z: 0}
 --- !u!114 &999714152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1258,6 +1258,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: PingPongProject
       objectReference: {fileID: 0}
+    - target: {fileID: 2428977145881700129, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.35889
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428977145881700129, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428977146015606739, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.41994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428977146015606739, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428977146194415935, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.32451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428977146194415935, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428977146274090095, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.31983
+      objectReference: {fileID: 0}
+    - target: {fileID: 2428977146274090095, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.57
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2428977144667337406, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7f447a7be3ea6344cbd48bd4c25c10ba, type: 3}
@@ -1350,7 +1382,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894234155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.064, y: 1.677, z: -2.923}
+  m_LocalPosition: {x: -0.064, y: 1.677, z: -2.62}
   m_LocalScale: {x: 1.9456011, y: 1.3933007, z: 0.04557519}
   m_Children: []
   m_Father: {fileID: 0}
